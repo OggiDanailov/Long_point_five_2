@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+}
+
+.wrapper {
+	/*margin-left:auto;
+    margin-right:auto;*/
+    width:1000px;
+    margin: 0 auto;
+    border: 2px solid orange;
+    height: 400px;
+    position: relative;
+}
+
+/*increase of the nav menu*/
+nav li a:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+ 
+
+
+.nav-tabs {
+	margin-left: 30px;
+
+}
+
+#home {
+	margin: 0 auto;
+	border: 1px solid red;
+	width: 80%;
+	height: 300px;
+	margin-top: 50px;
+	padding: 10px;
+	
+}
+
+.col-xs-3{
+	border: 2px solid red;
+	border-radius: 10%;
+
+}
+
+.col-xs-5{
+	border: 2px solid red;
+	border-radius: 10%;
+	margin-top: 60px;
+	margin-left: -400px;
+
+}
+
+#perf {
+	padding-left: 5px;
+}
+
+
+
+
+
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
