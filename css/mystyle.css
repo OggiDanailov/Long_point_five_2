@@ -12,6 +12,10 @@
     position: relative;
 }
 
+#wrapper1 {
+	height: 600px;
+}
+
 /*increase of the nav menu*/
 nav li a:hover {
 	-webkit-transform:scale(1.25); /* Safari and Chrome */
@@ -67,4 +71,68 @@ nav li a:hover {
     min-height: 400px;
     background: transparent;
 }
+
+
+
+
+/*flipping css*/
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 250px;
+	height: 250px;
+	padding-left: 7px;
+	padding-top: 3px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 1.6s;
+	transform-style: preserve-3d;
+	position: relative;
+
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+	border: 2px solid black;
+	border-radius: 10%;
+}
+
+
+
+
+
+
+
 
