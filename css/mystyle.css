@@ -25,7 +25,11 @@ nav li a:hover {
      transform:scale(1.25);
 }
 
- 
+ audio {
+ 	width: 230px;
+ 	border-radius: 20%;
+ 	color: white;
+ }
 
 
 .nav-tabs {
@@ -42,30 +46,6 @@ nav li a:hover {
 	padding: 10px;
 	
 }
-
-.col-xs-3{
-	border: 2px solid red;
-	border-radius: 10%;
-
-}
-
-.col-xs-5{
-	border: 2px solid red;
-	border-radius: 10%;
-	margin-top: 60px;
-	margin-left: -400px;
-
-}
-
-#perf {
-	padding-left: 5px;
-}
-
-
-
-
-
-
 
 .parallax-window {
     min-height: 400px;
@@ -130,7 +110,44 @@ nav li a:hover {
 }
 
 
+		/*#audioplayer{
+	width: 400px;
+	height: 60px;
+	margin: 30px auto auto 10px;
+	border: 3px solid;
+	}
 
+	#pButton{
+	    height:60px; 
+	    width: 60px;
+	    border: none;
+	    background-size: 50% 50%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    float:left;
+	    outline:none;
+	}
+
+	.play{background: url('../images/play-button.jpg') ;}
+	.pause{background: url('../images/pause-button.png') ;}
+
+	#timeline{
+		width: 300px;
+		height: 20px;
+		margin-top: 20px;
+		float: left;
+		border-radius: 15px;
+		background: lightgrey;
+	  
+	}
+	#playhead{
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		margin-top: 1px;
+		background: black;
+
+	}*/
 
 
 

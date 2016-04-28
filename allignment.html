@@ -136,29 +136,49 @@
 	<div class="parallax-window" data-parallax="scroll" data-image-src="images/flute.jpg"></div>
 
 	<div class='wrapper'>
-		<div id='perf'>
+		<!-- <div id='perf-left'> -->
 
-			 <h2>Repertory</h2>
-          <p> Take Five by <span> Dave Brubeck</span>
-          <br>
-          So What by <span> Miles Davis </span>
-          <br> 
-          Take The A Train by <span>   Duke Ellington</span> 
-          <br>
-          Round Midnight by <span>   Thelonious Monk</span> 
-          <br>
-          My Favorite Things  by <span> John Coltrane</span> 
-          <br>
-          A Love Supreme (Acknowledgment) by <span>  John Coltrane</span> 
-          <br>
-          All Blues <span> Miles Davis</span>  
-          <br>
-          Birdland  by <span> Weather Report</span> 
-          <br>
-          The Girl From Ipanema by <span> Stan Getz & Astrud Gilberto</span> 
-         <br>
-         Sing, Sing, Sing  by <span> Benny Goodman</span> 
-		</div> <!-- end of perf -->
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class='front'>
+					<img src='images/Haim.png' width="180px" height="200px">
+				</div>
+
+				<div class='back'>
+					<!-- <div class="col-xs-3" id='John'> -->
+		            <audio controls>
+					<source src="audio/L_Chaim_LP5.wav">
+					<source src="audio/L_Chaim_LP5.ogg">
+					</audio>
+		           <!-- </div> -->
+		        </div> <!-- end of back class -->
+		    </div> <!-- end of flipper class -->
+		</div> <!-- end of
+
+			
+			<h3> L'Chaim</h3>
+			<h3> Song 2</h3>
+			<h3> Song 3</h3>
+			<h3> Song 4</h3>
+			<h3> Song 5</h3>
+
+			
+		<!-- </div> --> <!-- end of perf-left -->
+		<!-- <div id='perf-right'> -->
+	
+			
+			<!-- <audio id="music" preload="true">
+  				<source src="audio/L_Chaim_LP5.wav">
+				<source src="audio/L_Chaim_LP5.ogg">
+			</audio>
+
+			<div id="audioplayer">
+				<button id="pButton" class="play" onclick="play()"></button>
+	  			<div id="timeline">    
+	  		  		<div id="playhead"></div>
+	  			</div>
+			</div> <!- -->
+		<!-- </div> --> <!-- end of right -->
 
 	</div> <!-- end of wrapper -->	
 
@@ -205,6 +225,8 @@
 	</div> <!-- end of wrapper -->
 
 
+
+<script src="index.js"></script>
 </body>
 
 
