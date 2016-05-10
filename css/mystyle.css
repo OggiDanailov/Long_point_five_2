@@ -110,44 +110,79 @@ nav li a:hover {
 }
 
 
-		/*#audioplayer{
-	width: 400px;
-	height: 60px;
-	margin: 30px auto auto 10px;
-	border: 3px solid;
+	/*audio part	*/
+
+	button {
+	background:url(../images/play-button.jpg) no-repeat; 
+	cursor:pointer; 
+	outline:none;
+}
+
+
+.mainFrame {
+	width: 195px;
+	height: 195px;
+	border: 7px solid black;
+	border-radius: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 33px;
+}
+
+.frame {
+	width: 175px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 6px;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+.player {
+	width: 165px;
+	height: 30px;
+	position: absolute;
+	/*border: 2px solid green;*/
 	}
 
-	#pButton{
-	    height:60px; 
-	    width: 60px;
-	    border: none;
-	    background-size: 50% 50%;
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    float:left;
-	    outline:none;
+.play {
+	width: 52px;
+	cursor: pointer;
+	float: left;
+	/*border:1px solid red;*/	
 	}
 
-	.play{background: url('../images/play-button.jpg') ;}
-	.pause{background: url('../images/pause-button.png') ;}
-
-	#timeline{
-		width: 300px;
-		height: 20px;
-		margin-top: 20px;
-		float: left;
-		border-radius: 15px;
-		background: lightgrey;
-	  
+.pause {
+	width: 52px;
+	cursor: pointer;
+	float: left;
+	/*border:1px solid blue;*/	
 	}
-	#playhead{
-		width: 18px;
-		height: 18px;
-		border-radius: 50%;
-		margin-top: 1px;
-		background: black;
 
-	}*/
+.rewind {
+	width: 52px;
+	cursor: pointer;
+	float: right;
+	/*border:1px solid green;*/
+	}
+
+
+.audioText  {
+ 		margin: 0 auto;
+		width: 155px;
+		height: 135px;
+		font-size: 13px;
+		font-family: Papyrus, fantasy;
+		padding-left: 5px;
+		padding-right: 2px;
+		padding-top: 5px;
+		font-style: italic;
+		cursor: pointer;
+		/*border: 2px solid orange;*/
+		border-radius: 5%;
+	}
+
+
 
 
 

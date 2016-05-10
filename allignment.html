@@ -134,53 +134,49 @@
 	</div>  <!-- the end of wrapper1 -->
 
 	<div class="parallax-window" data-parallax="scroll" data-image-src="images/flute.jpg"></div>
+		
 
 	<div class='wrapper'>
-		<!-- <div id='perf-left'> -->
-
-		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-			<div class="flipper">
-				<div class='front'>
-					<img src='images/Haim.png' width="180px" height="200px">
-				</div>
-
-				<div class='back'>
-					<!-- <div class="col-xs-3" id='John'> -->
-		            <audio controls>
+		<div class='mainFrame'>
+			<div class='frame'>
+				<audio id='audio'>
 					<source src="audio/L_Chaim_LP5.wav">
 					<source src="audio/L_Chaim_LP5.ogg">
-					</audio>
-		           <!-- </div> -->
-		        </div> <!-- end of back class -->
-		    </div> <!-- end of flipper class -->
-		</div> <!-- end of
+				</audio>
+
+				<div class='image'>
+					<img src='images/Haim.png' id='frontAudio' width='165px' height='135px'>
+				</div> <!-- end of image -->
+				<div class='audioText' id='back' style='display: none'>
+				<p> <q>L'Chaim</q> is one of the most famous numbers from the hit Broadway musical <q>Fiddler On The Roof,</q> with music by Jerry Bock and lyrics by Sheldon Harnick. </p>
+				</div> <!-- end of text -->
+				<div class='player'>
+					<div class='play' id='playButton' onclick="toggleFront(); playButton()">
+						<img src='images/play3.png' width='53px' height='20px'>
+					</div>
+					<div class='pause' id='pauseButton' onclick="toggleBack(); pauseButton()">
+						<img src='images/pause3.png' width='53px' height='20px'>
+					</div>
+					<div class='rewind' id='rewindButton'>
+						<img src='images/rewind3.png' width='53px' height='20px'>
+					</div>
+				</div> <!--end of player class -->
+			</div> <!--end of frame -->
+	</div> <!--end of mainFrame -->
 
 			
-			<h3> L'Chaim</h3>
-			<h3> Song 2</h3>
-			<h3> Song 3</h3>
-			<h3> Song 4</h3>
-			<h3> Song 5</h3>
-
 			
-		<!-- </div> --> <!-- end of perf-left -->
-		<!-- <div id='perf-right'> -->
-	
-			
-			<!-- <audio id="music" preload="true">
-  				<source src="audio/L_Chaim_LP5.wav">
-				<source src="audio/L_Chaim_LP5.ogg">
-			</audio>
 
-			<div id="audioplayer">
-				<button id="pButton" class="play" onclick="play()"></button>
-	  			<div id="timeline">    
-	  		  		<div id="playhead"></div>
-	  			</div>
-			</div> <!- -->
-		<!-- </div> --> <!-- end of right -->
+	</div>  <!--  end of wrapper -->	
 
-	</div> <!-- end of wrapper -->	
+
+
+
+
+
+
+
+
 
 	<div class="parallax-window" data-parallax="scroll" data-image-src="images/piano2.jpeg"></div>
 
