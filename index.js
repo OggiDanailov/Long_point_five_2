@@ -1,3 +1,6 @@
+
+
+
 // var audio = document.getElementById('audio');
 // var button = document.getElementById('playpausebtn');
 
@@ -25,6 +28,7 @@ var frontButton = document.getElementById('playButton');
 var backButton = document.getElementById('pauseButton');
 var rewind = document.getElementById('rewindButton')
 var elementIsClicked = false;
+console.log('audio/Pineapple Rag.wav', audio.src)
 
 frontButton.addEventListener('click', toggleFront);
 backButton.addEventListener('click', toggleBack)
@@ -73,3 +77,22 @@ function toggleBack(){
     }
 
 // audio buttons part comes to an end here
+
+
+// here is the slideshow from the left-photos id
+
+$(document).ready(function(){
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+
+
+})
