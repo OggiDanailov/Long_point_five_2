@@ -4,20 +4,25 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax/parallax.min.js"></script>
+
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
 </head>
-
-	
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/IMG_1494.jpg"></div>
-	
-	
-
-
 <body>
+<header>
+<div class='imageFirst'>	
+	<div class="parallax-window" data-parallax="scroll" data-image-src="images/IMG_1494.jpg"></div>
+	<h2 id='bandName'></h2>
+</div>
+</header>
+	
+	
+
+
+
 	
 
 	<div class='wrapper'>
@@ -130,6 +135,22 @@
 
 			</div> <!-- end of flipper class -->
 		</div> <!-- end of flipper-container -->
+
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper"> 
+
+		        <div class='front'>
+		        	<img src='images/Conga.jpg' width="120px" height="200px">
+				</div>
+
+
+				<div class='back'>
+		            <!-- <div class="col-xs-3" id='Jeri'> -->
+		            <p>When Bud thinks nobody is looking, he puts down his flute and doubles as the band&#39s drummer.</p>
+		            <!-- </div> -->
+		        </div>  <!-- end of back class -->
+		    </div>  <!-- end of back class -->
+		</div> <!-- end of flipper class -->
 
 
 
@@ -257,15 +278,22 @@
 	<div class="parallax-window" data-parallax="scroll" data-image-src="images/trumpet2.jpg"></div>
 
 
-	<div class='wrapper'>
+	<div class='wrapper' id='wrapper-last'>
 
 		<div id="contact">
-			<h2>Facebook Phones Emails Twitter</h2>
+			<div id='images-links'>
+				
+				<img  src='images/email.png' height='52' width='52'></a>
+				<img  src='images/Phone.png' height='52' width='52'></a>
+				<a href="https://twitter.com/longpointfive"  target='_blank'><img src='images/twitter.png' height='52' width='52'></a>
+				<a href="https://facebook.com"  target='_blank'><img src='images/facebook.png' height='52' width='52'></a>
+			</div>
+
+		
 		</div> <!-- end of contact -->
 
 
 	</div> <!-- end of wrapper -->
-
 
 
 <script src="index.js"></script>

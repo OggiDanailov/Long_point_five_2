@@ -1,3 +1,16 @@
+$( document ).ready(function(){ 
+	var text = function (target, message, index, interval) {   
+  if (index < message.length) {
+    $(target).append(message[index++]);
+    setTimeout(function () { text(target, message, index, interval); }, interval);
+  }
+}
+
+	$(function () {
+  		text("#bandName", "Long Point Five", 0, 250);   
+	});
+
+});
 
 
 
