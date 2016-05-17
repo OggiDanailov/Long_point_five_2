@@ -16,55 +16,55 @@ $( document ).ready(function(){
 
 //play buttons here
 var audio1 = document.getElementById('audio1');
-var front = document.getElementById('frontAudio');
-var back = document.getElementById('back');
-
+var front1 = document.getElementById('frontAudio1');
+var back1 = document.getElementById('back1');
 var frontButton1 = document.getElementById('playButton1');
 var backButton1 = document.getElementById('pauseButton1');
 var rewind1 = document.getElementById('rewindButton1')
 
+var audio2 = document.getElementById('audio2');
+var front2 = document.getElementById('frontAudio2');
+var back2 = document.getElementById('back2');
+var frontButton2 = document.getElementById('playButton2');
+var backButton2 = document.getElementById('pauseButton2');
+var rewind2 = document.getElementById('rewindButton2')
 
+var audio3 = document.getElementById('audio3');
+var front3 = document.getElementById('frontAudio3');
+var back3 = document.getElementById('back3');
+var frontButton3 = document.getElementById('playButton3');
+var backButton3 = document.getElementById('pauseButton3');
+var rewind3 = document.getElementById('rewindButton3')
 
-frontButton1.addEventListener('click', toggleFront);
-backButton1.addEventListener('click', toggleBack);
-rewind1.addEventListener('click', startOver);
-
-
-// this is the play audio
-function playButton(){
-	audio1.play();
+function audioMelange(audio, front, back, frontButton, backButton, rewindButton){
+	frontButton.addEventListener('click', toggleFront);
+	backButton.addEventListener('click', toggleBack);
+	rewindButton.addEventListener('click', startOver);
 	
-	};
-
-// this is the pause audio
-function pauseButton() {
-	audio1.pause();
 	
-}
-
-// this fuctions flips the image when I press play
-function toggleFront(){
-	if(front.style.display != 'none'){
+	function toggleFront(){
+		audio.play();
+		if(front.style.display != 'none'){
 		back.style.display = 'block';
 		front.style.display = 'none'
+		}
 	}
-};
-
-// this function flips the image back when I press the pause button
-function toggleBack(){
+	function toggleBack(){
+		audio.pause();
 	if(back.style.display != 'none'){
 		front.style.display = 'block';
 		back.style.display = 'none'
+		}
 	}
-};
-
-
-// this is the rewind button; stops the music and rewinds from the beginning
-    function startOver(){
+	function startOver(){
     	audio1.currentTime = 0;
     	audio1.pause();
     }
+}
 
+audioMelange(audio1,front1, back1, frontButton1, backButton1, rewindButton1 );
+audioMelange(audio2,front2, back2, frontButton2, backButton2, rewindButton2 );
+audioMelange(audio3,front3, back3, frontButton3, backButton3, rewindButton3 );
 
 //end of play buttons here
 
