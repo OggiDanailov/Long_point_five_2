@@ -128,11 +128,11 @@ nav li a:hover {
 
 	/*audio part	*/
 
-	button {
+/*	button {
 	background:url(../images/play-button.jpg) no-repeat; 
 	cursor:pointer; 
 	outline:none;
-}
+}*/
 
 
 .mainFrame {
@@ -183,6 +183,7 @@ nav li a:hover {
 	}
 
 
+
 .audioText  {
  		margin: 0 auto;
 		width: 155px;
@@ -196,6 +197,10 @@ nav li a:hover {
 		cursor: pointer;
 		/*border: 2px solid orange;*/
 		border-radius: 5%;
+	}
+
+	#back2 {
+		font-size: 12px;
 	}
 
 #media {
