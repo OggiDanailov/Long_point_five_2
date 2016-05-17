@@ -141,7 +141,8 @@ nav li a:hover {
 	border: 7px solid black;
 	border-radius: 10px;
 	float: left;
-	margin-left: 13px;
+	margin-left: 3px;
+	margin-top: 2px;
 }
 
 .frame {
