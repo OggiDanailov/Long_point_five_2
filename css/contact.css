@@ -13,12 +13,11 @@
 	width: 1000px;
 	height: 120px;
 	border: 1px solid grey;
-	
 	border-radius: 2%;
-	 background: #f5f5dc;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5dc), color-stop(100%, #31312c));
-  background: -webkit-linear-gradient(top, #f5f5dc 0%, #31312c 100%);
-  background: linear-gradient(to bottom, #f5f5dc 0%, #31312c 100%);
+	background: #f5f5dc;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5dc), color-stop(100%, #31312c));
+	background: -webkit-linear-gradient(top, #f5f5dc 0%, #31312c 100%);
+	background: linear-gradient(to bottom, #f5f5dc 0%, #31312c 100%);
 }
 
 

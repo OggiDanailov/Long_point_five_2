@@ -220,6 +220,7 @@ nav li a:hover {
 	margin: 5px;
 	width: 60%;
 	height: 98%;
+	float: left;
 	/*border: 1px solid blue;*/
 }
 
@@ -230,6 +231,7 @@ nav li a:hover {
     width: 580px; 
     height: 380px; 
     padding: 10px; 
+    float: left;
     /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/ 
 }
 
@@ -242,18 +244,19 @@ nav li a:hover {
 }
 
 #right-tours {
-	float: right;
+	float: left;
 	border: 1px solid green;
-	margin: 5px;
+	margin: 3px;
 	width: 38%;
 	height: 98%;
-	margin-top: -385px;
+	/*margin-top: -396px;*/
 }
 #header {
 	text-align: center;
+	margin-top: -4px;
 }
 
-#playhouse {
+.playhouse {
 	text-decoration: none;
 	color: black;
 	font-style: italic;
