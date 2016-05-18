@@ -1,4 +1,8 @@
 
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
 
 #container {
 	/*background-image:url('../images/Long Point 5 logo.jpeg');
@@ -7,13 +11,40 @@
 	
 	margin: 0 auto;
 	width: 1000px;
-	height: 300px;
-	border: 1px solid orange;
+	height: 120px;
+	border: 1px solid grey;
+	
+	border-radius: 2%;
+	 background: #f5f5dc;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5dc), color-stop(100%, #31312c));
+  background: -webkit-linear-gradient(top, #f5f5dc 0%, #31312c 100%);
+  background: linear-gradient(to bottom, #f5f5dc 0%, #31312c 100%);
 }
 
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
+
+
+#contact{
+margin: 3px auto;
+/*border: 1px solid red;*/
+width: 80%;
+height: 80%;
+
 }
+
+#phone, #email {
+	width: 48%;
+	padding-top: -10px;
+	/*border: 10px solid;*/
+	margin-right: 10px;
+	float: left;
+	border-radius: 20%;
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 23px;
+
+}
+ 
+
+
 
 
