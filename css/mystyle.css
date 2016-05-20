@@ -12,9 +12,9 @@
    position: absolute; 
    text-align: center;
    top: 1px; 
-   color: #B22222;
+   color: #C3E4ED;
    font-size: 73px;
-   font-family: 'Brush Script MT', cursive;
+   font-family: harrington;
    width: 100%; 
 
 }
@@ -24,7 +24,7 @@
     margin-right:auto;*/
     width:1000px;
     margin: 0 auto;
-    border: 2px solid orange;
+    border: 2px solid;
     height: 400px;
     position: relative;
     background-color: #ffffff;
@@ -32,6 +32,13 @@
 
 #wrapper1 {
 	height: 600px;
+	background: #ffffff;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
+}
+nav li a {
+	color: black;
 }
 
 /*increase of the nav menu*/
@@ -41,6 +48,15 @@ nav li a:hover {
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
+}
+
+#nav-bar {
+background: #ffffff;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
+	font-family: Goudy old style regular;
+	color: black;
 }
 
  audio {
@@ -57,11 +73,14 @@ nav li a:hover {
 
 #home {
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 80%;
 	height: 300px;
 	margin-top: 50px;
-	padding: 10px;
+	padding: 0 10px;
+	font-family: Goudy old style regular;
+	font-size: 17px;
+
 	
 }
 
@@ -124,7 +143,12 @@ nav li a:hover {
 	transform: rotateY(180deg);
 	border: 2px solid black;
 	border-radius: 10%;
+	font-family: Goudy old style regular;
 }
+
+/*#white {
+	color: white;
+}*/
 
 
 	/*audio part	*/
@@ -198,6 +222,10 @@ nav li a:hover {
 		cursor: pointer;
 		/*border: 2px solid orange;*/
 		border-radius: 5%;
+		background: #ffffff;
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+		background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
 	}
 
 	#back2 {
@@ -205,7 +233,14 @@ nav li a:hover {
 	}
 
 #media {
-	margin: 60px 0 50px 0;
+	margin: 60px 0 50px 8px;
+}
+
+#wrapper-media{
+	background: #ffffff;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
 }
 
 .articles:hover img{
@@ -214,6 +249,14 @@ nav li a:hover {
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
+}
+
+#wrapper-slideshow {
+	background: #ffffff;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
+
 }
 
 #left-photos {
@@ -245,7 +288,7 @@ nav li a:hover {
 
 #right-tours {
 	float: left;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	margin: 3px;
 	width: 38%;
 	height: 98%;
@@ -265,6 +308,10 @@ nav li a:hover {
 #wrapper-last {
 	width: 1000px;
 	height: 60px;
+	background: #ffffff;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #C3E4ED));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #C3E4ED 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #C3E4ED 100%);
 }
 
 #contact {
@@ -287,6 +334,7 @@ nav li a:hover {
 	padding: 2px;
 	font-size: 9px;
 	float: right;
+	font-family: Papyrus, fantasy;
 }
 
 
