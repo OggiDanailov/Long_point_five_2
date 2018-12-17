@@ -1,0 +1,127 @@
+.wrapper-audio {
+	/*border: 2px solid white;*/
+	/*background-color: red;*/
+	overflow: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	width: 90%;
+	margin: 20px auto;
+}
+
+.mainFrame {
+	width: 100%;
+	height: 255px;
+	border: 7px solid black;
+	border-radius: 10px;
+	/*float: left;*/
+	margin-left: 3px;
+	margin-top: 2px;
+}
+
+.audio-image1, .audio-image2, .audio-image3, .audio-image4,
+.audio-image5, .audio-image6, .audio-image7, .audio-image8,
+.audio-image9, .audio-image10  {
+	background-size: 100% 100%;
+	width: 70%;
+	height: 145px;
+	margin: 0 auto;
+	margin-top: 16px;
+	border-radius: 10px;
+}
+
+.audio-image1 {
+	background-image: url("../images/audio/the clown.jpg");
+}
+.audio-image2 {
+	background-image: url("../images/audio/pineapple_rag.jpeg");
+}
+
+.audio-image3 {
+	background-image: url("../images/audio/bach.jpg");
+}
+
+.audio-image4 {
+	background-image: url("../images/audio/ballin.jpg");
+}
+
+.audio-image5 {
+	background-image: url("../images/audio/el_choclo.jpeg");
+}
+.audio-image6 {
+	background-image: url("../images/audio/someone.png");
+}
+.audio-image7 {
+	background-image: url("../images/audio/american.jpg");
+}
+.audio-image8 {
+	background-image: url("../images/audio/poinciana.jpeg");
+}
+.audio-image9 {
+	background-image: url("../images/audio/stardust.jpg");
+}
+
+.audio-image10 {
+	background-image: url("../images/audio/tin.jpg");
+}
+
+
+.player {
+	width: 165px;
+	/*border: 2px solid green;*/
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.play {
+	width: 52px;
+	cursor: pointer;
+	float: left;
+	/*border:1px solid red;*/	
+	}
+
+.pause {
+	width: 52px;
+	cursor: pointer;
+	float: left;
+	/*border:1px solid blue;*/	
+	}
+
+.rewind {
+	width: 52px;
+	cursor: pointer;
+	float: right;
+	/*border:1px solid green;*/
+	}
+
+
+
+.audioText  {
+	width: 70%;
+	height: 145px;
+	margin: 0 auto;
+	margin-top: 16px;
+	overflow: scroll;
+	font-family: garamond;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+ 		
+	}
+
+@media all and (max-width: 882px){
+	.wrapper-audio {
+	overflow: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media all and (max-width: 480px){
+	.wrapper-audio {
+	overflow: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+}
+

@@ -1,0 +1,23 @@
+
+ .contact-container{ 
+ 		width: 80%; 
+ 		margin: 20px auto;
+ 		border-radius: 5px;
+ 		border: 2px solid;
+ 		background: turquoise;
+		font-family: Goudy old style regular;
+		display: grid;
+		grid-template-columns: 1fr 1fr;		
+ 	 }
+
+
+#left, #right {
+	padding: 20px 10px;
+	
+}
+
+.input, .names {
+	margin-left: 30px;
+}
+
+
