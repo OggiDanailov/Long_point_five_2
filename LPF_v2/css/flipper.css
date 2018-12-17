@@ -1,0 +1,66 @@
+.flip-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-rap: 10px;
+}
+
+.grid-container {
+	border: 1px solid white;
+	height: 300px;
+	overflow: scroll;
+}
+
+.img-logo {
+	float: left;
+	width: 100px;
+	height: 150px;
+	/*border: 1px solid white;*/
+	border-radius: 50%;
+	margin: 10px;
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+
+.about-me {
+	color: white;
+	font-size: 1em;
+	font-family: garamond;
+	padding: 15px;
+}
+
+.img-logo-trumpet {
+	background-image: url("../images/flipper/trumpet.png")
+}
+
+.img-logo-piano {
+	background-image: url("../images/flipper/piano.png")
+}
+
+.img-logo-trombone {
+	background-image: url("../images/flipper/trombone.png")
+}
+
+.img-logo-clarinet {
+	background-image: url("../images/flipper/clarinet.png")
+}
+
+.img-logo-flute {
+	background-image: url("../images/flipper/flute.png")
+}
+.img-logo-conga {
+	height: 150px;
+	background-image: url("../images/flipper/conga.png")
+}
+
+
+
+
+
+
+
+
+
+
+
