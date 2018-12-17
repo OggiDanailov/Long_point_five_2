@@ -9,7 +9,6 @@ navBarToggle.addEventListener('click', function () {
 
 
 
-
 //play buttons here
 var audio1 = document.getElementById('audio1');
 var front1 = document.getElementById('frontAudio1');

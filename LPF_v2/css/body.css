@@ -49,7 +49,17 @@
 }
 
 
+@media all and (max-width: 480px){
+	.parallax-window {
+    min-height: 200px;
+    background: transparent;
 
+	}
+
+	.title {
+		font-size: 1em;
+	}
+}
 
 
 

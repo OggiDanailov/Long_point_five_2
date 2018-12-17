@@ -63,7 +63,23 @@
 
 
 
+@media all and (max-width: 480px){
+	.flip-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	}
+}
 
+@media all and (min-width: 481px) and (max-width: 767px){
+	.flip-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	}
+}
 
 
 
