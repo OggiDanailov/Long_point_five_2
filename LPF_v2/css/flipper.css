@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'garamond';
+    src: url("../fonts/Garamond.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .flip-container {
 	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-rap: 10px;
+	grid-gap: 10px;
 }
 
 .grid-container {
@@ -26,7 +33,7 @@
 .about-me {
 	color: white;
 	font-size: 1em;
-	font-family: garamond;
+	font-family: 'garamond';
 	padding: 15px;
 }
 
